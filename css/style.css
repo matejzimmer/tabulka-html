@@ -61,3 +61,9 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
+.kruhy {
+    background-image: url(../img/kruhy.jpg);
+}
+#info {
+    background-color: rgba(200, 200, 200, 0.5);
+}
