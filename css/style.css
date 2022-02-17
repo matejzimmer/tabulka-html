@@ -13,6 +13,9 @@ table, td, th{
     border-collapse: collapse;
 
 }
+.tb{
+    border: 1px solid white;
+}
 table{
     width: 100%;
 }
