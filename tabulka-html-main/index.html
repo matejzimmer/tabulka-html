@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulky v html</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+        <table id="info">
+            <caption class="text">Snowboarding Ženy U-rampa FINÁLE - 3. jízda</caption>
+            <thead>
+                <tr class="text">
+                    <th>Umístění</th>
+                    <th>Sportovec</th>
+                    <th>Stát</th>
+                    <th>Výkon
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="gold text">
+                    <td class="text-center text-bold">🥇1.</td>
+                    <td class="text-bold ">Kimová</td>
+                    <td class="text-bold "> <img src="img/USA.png" alt="USA" class="flag"> USA</td>
+                    <td class="text-center text-bold">94.00</td>
+                </tr>
+                <tr class="silver text">
+                    <td class="text-center text-bold">🥈2.</td>
+                    <td class="text-bold ">Castelletová</td>
+                    <td class="text-bold "> <img src="img/ESP.png" alt="Španělsko" class="flag"> Španělsko</td>
+                    <td class="text-center text-bold">90.25</td>
+                </tr>
+                <tr class="bronze text">
+                    <td class="text-center text-bold">🥉3.</td>
+                    <td class="text-bold ">Tomitaová</td>
+                    <td class="text-bold "> <img src="img/jap.png" alt="Japonsko" class="flag"> Japonsko</td>
+                    <td class="text-center text-bold">80.25</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="text-center text ok" colspan="4">Zimní olympijské hry, Peking 2022</td>
+
+                </tr>
+            </tfoot>
+        </table>
+
+        <h2>Tabulka druhá</h2>
+        <table class="text" id="info">
+            <tbody>
+                <tr>
+                    <th rowspan="3" style="width: 20%;" class="text-bold "> <img src="img/kruhy.jpg" alt="" class="kruhy">
+                    </th>
+                    <th colspan="2" class="text-bold ok">Zimní olympijské hry 2022</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="text-bold ">Počet účastníků: 2922 </th>
+                </tr>
+                <tr class="text-bold ">
+                    <th>od: 4. února 2022</th>
+                    <th>do: 4. února 2022</th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        &copy; Matěj Zimmer, IT1
+    </footer>
+</body>
+
+</html>
